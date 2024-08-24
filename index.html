@@ -40,7 +40,7 @@
 
         console.log('Total Marks : ' + (stm1 + stm2 + stm3 + stm4 + stm5));
         console.log('Obtained Marks : ' + (sub1 + sub2 + sub3 + sub4 + sub5));
-        console.log('Percentage : ' + percentage.toFixed(2) + '%');
+        console.log('Percentage : ' + percentage + '%');
 
         if (percentage >= 80) {
             console.log("Grade : A-one")
@@ -54,8 +54,8 @@
             console.log("Grade : B")
             console.log("Remarks : You need to improve")
         }
-        else if (percentage >= 90) {
-            console.log("Grade : Fail")
+        else if (percentage >= 50) {
+            console.log("Grade : C")
             console.log("Remarks : You need to work very hard")
         }
         else {
